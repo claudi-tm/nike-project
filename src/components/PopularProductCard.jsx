@@ -14,3 +14,6 @@ export default function PopularProductCard({ imgURL, name, price }) {
 		</div>
 	);
 }
+
+// TO-DO :
+// Create a link that leads to the product detailed page by click
