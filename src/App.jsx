@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import {
 	CustomerReviews,
+	Footer,
 	Hero,
 	PopularProducts,
 	Services,
@@ -35,7 +36,7 @@ export default function App() {
 				<Subscribe/>
 			</section>
 			<section className="padding bg-black padding-x padding-t pb-8">
-				Footer
+				<Footer/>
 			</section>
 		</main>
 	);
