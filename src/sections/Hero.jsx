@@ -30,7 +30,7 @@ export default function Hero() {
 					innovation for your active life.
 				</p>
 				<div>
-					<Button label="Shop now" iconURL={arrowRight} />
+					<Button label="Shop now" iconURL={arrowRight} type={"primary"} />
 				</div>
 
 				<span className="flex  justify-start items-start flex-wrap w-full mt-20 gap-16">
