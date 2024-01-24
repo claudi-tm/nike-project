@@ -7,6 +7,7 @@ import {
 	SpecialOffer,
 	SuperQuality,
 } from "./sections";
+import Subscribe from "./sections/Subscribe";
 
 export default function App() {
 	return (
@@ -31,7 +32,7 @@ export default function App() {
 				<CustomerReviews />
 			</section>
 			<section className="padding-x sm:py-32 py-16 w-full ">
-				Subscribe
+				<Subscribe/>
 			</section>
 			<section className="padding bg-black padding-x padding-t pb-8">
 				Footer
